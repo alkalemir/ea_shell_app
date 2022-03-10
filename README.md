@@ -1,2 +1,2 @@
 # ea_shell
- POSIX compatible shell.
+ Bash like POSIX compatible shell implementation.
