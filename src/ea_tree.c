@@ -29,7 +29,7 @@ void walk_dir(const char *path, int level)
             continue;
 
         if ((ent->d_name[0] == '.') && !a_flag)
-            ;
+            continue;
         else if (S_ISDIR(finfo.st_mode))
             printf("%s%*s%s%s\n", EA_GREEN, level * TAB_SIZE * 2, "", ent->d_name, EA_WHITE);
         else 
